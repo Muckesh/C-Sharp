@@ -1,13 +1,17 @@
 ﻿Console.WriteLine("Factorial App");
-Console.WriteLine("Enter a positive integer :");
-// int number = int.Parse(Console.ReadLine());
-int number = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter a positive integer : ");
 
-double fact = 1;
+string input = Console.ReadLine();
 
-for (int i = 1; i <= number; i++)
+if (int.TryParse(input, out int number) && number >=0)
 {
-    fact *= i;
+    int result = factorial(number);
+    Console.WriteLine($"The factorial of {number} is {result}");
+}else{
+    Console.WriteLine("Invalid Input");
 }
 
-Console.WriteLine($"The Factorial of {number} is {fact}.");
+static int factorial(int num){
+    if(num==0 || num==1) return num;
+    else return num * factorial(num-1);
+}
