@@ -1,0 +1,15 @@
+D:\Presidio\C-Sharp\task-4\bin\Debug\net9.0\task-4.exe
+D:\Presidio\C-Sharp\task-4\bin\Debug\net9.0\task-4.deps.json
+D:\Presidio\C-Sharp\task-4\bin\Debug\net9.0\task-4.runtimeconfig.json
+D:\Presidio\C-Sharp\task-4\bin\Debug\net9.0\task-4.dll
+D:\Presidio\C-Sharp\task-4\bin\Debug\net9.0\task-4.pdb
+D:\Presidio\C-Sharp\task-4\obj\Debug\net9.0\task-4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Presidio\C-Sharp\task-4\obj\Debug\net9.0\task-4.AssemblyInfoInputs.cache
+D:\Presidio\C-Sharp\task-4\obj\Debug\net9.0\task-4.AssemblyInfo.cs
+D:\Presidio\C-Sharp\task-4\obj\Debug\net9.0\task-4.csproj.CoreCompileInputs.cache
+D:\Presidio\C-Sharp\task-4\obj\Debug\net9.0\task-4.sourcelink.json
+D:\Presidio\C-Sharp\task-4\obj\Debug\net9.0\task-4.dll
+D:\Presidio\C-Sharp\task-4\obj\Debug\net9.0\refint\task-4.dll
+D:\Presidio\C-Sharp\task-4\obj\Debug\net9.0\task-4.pdb
+D:\Presidio\C-Sharp\task-4\obj\Debug\net9.0\task-4.genruntimeconfig.cache
+D:\Presidio\C-Sharp\task-4\obj\Debug\net9.0\ref\task-4.dll
