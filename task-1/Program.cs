@@ -1,29 +1,13 @@
-﻿using System;
-class Program
-{
-    static void Main()
-    {
-        Console.Write("Enter a positive integer: ");
-        string input = Console.ReadLine();
+﻿Console.WriteLine("Factorial App");
+Console.WriteLine("Enter a positive integer :");
+// int number = int.Parse(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 
-        // Try to parse input to integer
-        if (int.TryParse(input, out int number) && number >= 0)
-        {
-            int result = CalculateFactorial(number);
-            Console.WriteLine($"Factorial of {number} is: {result}");
-        }
-        else
-        {
-            Console.WriteLine("Invalid input! Please enter a non-negative integer.");
-        }
-    }
-    static int CalculateFactorial(int n)
-    {
-        int factorial = 1;
-        for (int i = 1; i <= n; i++)
-        {
-            factorial *= i;
-        }
-        return factorial;
-    }
+double fact = 1;
+
+for (int i = 1; i <= number; i++)
+{
+    fact *= i;
 }
+
+Console.WriteLine($"The Factorial of {number} is {fact}.");
