@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Presidio\\C-Sharp\\task-2\\task-2\\task-2.csproj",
+      "projectUniqueName": "D:\\Presidio\\C-Sharp\\task-2\\task-2.csproj",
       "projectName": "task-2",
-      "projectPath": "D:\\Presidio\\C-Sharp\\task-2\\task-2\\task-2.csproj",
+      "projectPath": "D:\\Presidio\\C-Sharp\\task-2\\task-2.csproj",
       "packagesPath": "C:\\Users\\mucke\\.nuget\\packages\\",
-      "outputPath": "D:\\Presidio\\C-Sharp\\task-2\\task-2\\obj\\",
+      "outputPath": "D:\\Presidio\\C-Sharp\\task-2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

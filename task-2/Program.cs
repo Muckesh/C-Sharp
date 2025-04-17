@@ -1,38 +1,60 @@
 ﻿using System;
 
-public class Person
-{
-    // Properties
-    public string Name;
-    public int Age;
+public class Person {
+    
+    public string name;
+    public int age;
 
-    // Method
-    public void Introduce()
-    {
-        Console.WriteLine($"Hi, I'm {Name} and I am {Age} years old.");
+    public void Introduce(){
+        Console.WriteLine($"Good Morning!. Your name is {name}. You are {age} years old.");
     }
 }
 
-class Program
-{
-    static void Main()
-    {
-        // Create first person
-        Person person1 = new Person();
-        person1.Name = "Alice";
-        person1.Age = 25;
-        person1.Introduce();
+public class Animal {
+    public string name;
+    public int age;
 
-        // Create second person
-        Person person2 = new Person();
-        person2.Name = "Bob";
-        person2.Age = 30;
-        person2.Introduce();
+    // constructor
+    public Animal (string name, int age){
+        this.name = name;
+        this.age = age;
+    }
 
-        // Create third person
-        Person person3 = new Person();
-        person3.Name = "Charlie";
-        person3.Age = 22;
-        person3.Introduce();
+    public void Introduce(){
+        Console.WriteLine($"Hello!. I am a {name}. My age is {age}.");
+    }
+
+}
+
+public class Program {
+    static void Main(String[] args){
+        // Person 1
+        Person p1 = new Person();
+        p1.name = "Alexander";
+        p1.age = 24;
+
+        p1.Introduce();
+
+        // Person 2
+        Person p2 = new Person();
+        p2.name = "Tom Cruise";
+        p2.age = 35;
+
+        p2.Introduce();
+
+        // Person 3
+        Person p3 = new Person();
+        p3.name = "Juice Wrld";
+        p3.age = 27;
+
+        p3.Introduce();
+
+        // Dog
+        Animal dog = new Animal("dog",5);
+        dog.Introduce();
+
+        // Cat
+        Animal cat = new Animal(name: "cat", age: 3);
+        cat.Introduce();
     }
 }
